@@ -1,0 +1,83 @@
+.navbar
+{
+    background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+}
+.navbar-nav li
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar-nav li a
+{
+    color:black;
+}
+
+.dropdown-menu li a
+{
+    color: black;
+}
+.container
+{
+    margin-left: 200px;
+}
+
+.carousel-item img
+{
+    
+    height: 425px;
+    
+    
+}
+
+#footer
+{
+    background-color: rgb(213, 197, 141);
+    position: relative;
+    height: 150px;
+    margin-top: -5px;
+    clear: both;
+}
+
+#footer .social
+{
+    text-align: center;
+    padding: 25px;
+}
+
+#footer .social a
+{
+    font-size: 24px;
+    color: rgb(23, 8, 8);
+
+}
+
+#footer .copyright
+{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(23, 8, 8);
+}
+#h-main1
+{
+    color: black;
+}
+
+@media screen and (max-width: 767px){   
+    #main-img1{      
+        content:url("images/caraouselgirl.jpg");
+    } 
+    
+
+
+    #main-img2{      
+        content:url("images/caraouselcouple.jpg");
+    } 
+    #main-img3{      
+        content:url("images/caraouselboy.jpg");
+    } 
+    #main-img4{      
+        content:url("images/caraouselshoe.jpg");
+    } 
+
+
+}
