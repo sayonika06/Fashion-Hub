@@ -29,6 +29,12 @@
     
 }
 
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
 #footer
 {
     background-color: rgb(213, 197, 141);
